@@ -1,0 +1,36 @@
+.modul-4 .footer_content {
+  background: #131930;
+  border-radius: 4px;
+  text-align: center;
+  margin: 50px 0 80px 0;
+}
+.modul-4 .footer_row_1 {
+  padding: 27px 250px 35px 250px;
+  padding: 20px;
+}
+.modul-4 .footer_row_1 p {
+  margin: 30px 0 0 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.25em;
+  color: #7f8496;
+}
+.modul-4 .footer_row_1 a:hover {
+  background-color: ;
+}
+.modul-4 .footer_row_2 {
+  border-top: 1px solid rgba(255,255,255,0.15);
+}
+.modul-4 .footer_row_2 p {
+  margin: 0;
+  padding: 18px;
+  font-weight: 300;
+  color: #7f8496;
+}
+.modul-4 .footer_row_2 a:hover {
+  color: #fff;
+}
+.modul-4 .footer_row_2 a {
+  font-weight: inherit;
+  color: #4d7df0;
+}
