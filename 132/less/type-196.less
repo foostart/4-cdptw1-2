@@ -1,0 +1,158 @@
+
+.type-196{
+    width : 100%px;
+    .container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+     .swiper-button-next, .swiper-button-prev{
+            position: absolute;
+            -webkit-transition: all .3s ease;
+            cursor: pointer;
+            z-index: 10 !important;
+            background-color: rgba(0, 0, 0, 0.4);
+             background: #333 none repeat scroll 0 0;
+            text-align: center;
+            padding-top: 8px;
+            width: 30px;
+            height: 30px;
+            //opacity: 0;
+        }
+ 
+    .swiper-button-prev:hover, .swiper-button-next:hover{
+            background-color: rgba(0, 0, 0, 0.7);
+         }
+        .swiper-container:hover{
+            //ẩn 
+            .arrow{
+                display: block;
+            }
+        }
+        .swiper-container{
+             .next, .prev{
+               width: 50px;
+               height: 40px;
+                line-height: 30px;
+                //padding-left: 4px;
+                background: #333 none repeat scroll 0 0;
+                text-align: center;
+            }
+            //hiện
+            .arrow{
+                display: none; 
+            }
+            .next{
+               top: 30px;
+               right: 30px;
+            }
+            .prev{
+               top: 30px;
+               left: 1000px;
+            }
+            .arrow{
+                .next, .prev{
+                    opacity: 1;
+                }
+            }
+            .arrow:hover{
+                background: #6091ba;
+            }
+
+            .next:hover, .prev:hover{
+                    opacity: 1;
+                    background: #6091ba;
+            }
+            fa:hover{
+                color: #000;
+            }
+        }
+    .banner{
+        background-color: #f5f5f5;
+        text-align: center;
+        overflow: hidden;
+        h3{
+            float: left;
+        }
+        .swiper-container{
+            margin-bottom: 50px;
+        }
+        .swiper-slide{
+            padding: -25px 0px;
+            overflow: hidden;
+            .block{
+                transition: transform 0.9s ease;
+                background-color: @white-color;
+                
+                .discount-percent {
+                    position: absolute;
+                    background: #f14705;
+                    font-size: 14px;
+                    top: 10px;
+                    right: 0;
+                    padding: 2px 5px;
+                    color: #fff;
+                    z-index: 10;
+                }
+                .image{
+                    img{
+                        margin-top: 10px;
+                        //transition: transform 0.9s ease; 
+                        width: 100%;
+                    }                    
+                }
+            }
+            .block:hover{
+                .product-btn {
+                opacity: 1;
+                visibility: visible;
+                -webkit-transition: visibility .25s ease,opacity .25s ease, margin .25s ease;
+                }
+            }
+        }       
+    }
+     @media only screen and (min-width: 320px) and (max-width: 479px){   
+        .swiper-container{
+             .prev{
+                 top: 30px;
+               left: 450px;
+             }
+         }  
+    }
+     @media only screen and (min-width: 500px) and (max-width: 767px){
+         .swiper-container{
+             .prev{
+                 top: 30px;
+               left: 330px;
+             }
+         }  
+    }
+    
+     @media only screen and (min-width: 768px) and (max-width: 991px){   
+          .swiper-container{
+             .prev{
+                 top: 30px;
+               left: 580px;
+             }
+         }  
+     }
+     @media only screen and (min-width: 992px){ 
+         .swiper-container{
+             .prev{
+                 top: 30px;
+               //left: 680px;
+             }
+         }  
+     }
+
+    @media only screen and (min-width: 1200px){
+        .swiper-container{
+             .prev{
+                 top: 30px;
+               //left: 830px;
+             }
+         }  
+    }
+}
+
