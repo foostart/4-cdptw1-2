@@ -2,12 +2,10 @@
 $url_host = 'http://' . $_SERVER['HTTP_HOST'];
 $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-
 preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
-
     <!-- Swiper -->
    <div class="type-196">
    <div class="banner">
@@ -19,7 +17,6 @@ $url_path = str_replace('\\', '/', $url_path);
               <div class="swiper-button-prev prev"><i class="fa fa-chevron-left" style="color: #fff; font-size: 20px;"></i></div>
            </div>  
                </h3>
-               
             <div class="swiper-wrapper">
                <div class="swiper-slide">
                   <div class="block">
@@ -63,12 +60,9 @@ $url_path = str_replace('\\', '/', $url_path);
                      </div>
                   </div>
                </div>
-               
             </div>
          </div>
-          
       </div>
-       
    </div>   
 </div>
 

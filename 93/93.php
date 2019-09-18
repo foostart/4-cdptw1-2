@@ -1,12 +1,9 @@
 <!DOCTYPE html>
-
 <html lang="en-US">
     <head>
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-       
         <title></title>
-
         <?php
         if (!class_exists('lessc')) {
             include ('./libs/lessc.inc.php');
@@ -16,8 +13,6 @@
         ?>
          <link href="css/type-93.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery.js" type="text/javascript"></script>
-
-
     </head>
     <body class="type-93 home page page-id-299 page-template page-template-page-templates page-template-template-fullwidth-not-header page-template-page-templatestemplate-fullwidth-not-header-php wpb-js-composer js-comp-ver-4.10 vc_responsive">
         <div>
@@ -45,7 +40,8 @@
                                                 <li id="menu-item-415" class="menu-item  menu-item-object-course menu-item-415"><a href="#">Course Details v2</a></li>
                                             </ul>
                                         </li>
-                                        <li id="menu-item-256" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-256 menu-item-mega"><a href="#">Pages (Megamenu)</a><div class="mega-menu-container container" style="width:100%">
+                                        <li id="menu-item-256" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-256 menu-item-mega"><a href="#">Pages (Megamenu)</a>
+                                            <div class="mega-menu-container container" style="width:100%">
                                                 <div class="mega-menu-columns">
                                                     <div id="menu-item-448" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-448 mega-sub-menu col-md-4"><a>Communicate</a>
                                                         <ul class="sub-menu">
@@ -75,7 +71,6 @@
                                     <div class="col-md-3 pull-right hidden-sm hidden-xs">
                                         <div id="sb-search" class="sb-search">
                                             <form action=#">
-                                                
                                                 <span class="fa fa-search"></span>
                                             </form>
                                         </div>
