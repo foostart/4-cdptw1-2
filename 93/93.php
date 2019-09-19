@@ -50,22 +50,27 @@
                                                             <li id="menu-item-554" class="menu-item   menu-item-554"><a href="#">Login / Register</a></li>
                                                             <li id="menu-item-609" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-609"><a href="#">Events</a></li>
                                                         </ul>
-                                                    </div>	<div id="menu-item-449" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-449 mega-sub-menu col-md-4"><a>Other Pages</a>
+                                                    </div>	
+                                                    <div id="menu-item-449" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-449 mega-sub-menu col-md-4"><a>Other Pages</a>
                                                         <ul class="sub-menu">
                                                             <li id="menu-item-251" class="menu-item   menu-item-251"><a href="#">Prices and Plans</a></li>
                                                             <li id="menu-item-252" class="menu-item   menu-item-252"><a href="#">Gallery Page</a></li>
                                                             <li id="menu-item-250" class="menu-item   menu-item-250"><a href="#">Shortcodes</a></li>
                                                             <li id="menu-item-455" class="menu-item   menu-item-455"><a href="#">Contact</a></li>
                                                         </ul>
-                                                    </div>	<div id="menu-item-450" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-450 mega-sub-menu col-md-4"><a>Submenu with icons</a>
+                                                    </div>	
+                                                    <div id="menu-item-450" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-450 mega-sub-menu col-md-4"><a>Submenu with icons</a>
                                                         <ul class="sub-menu">
                                                             <li id="menu-item-451" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-451"><a href="#">Downloads<i class="fa fa-download"></i></a></li>
                                                             <li id="menu-item-452" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-452"><a href="#">Video files<i class="fa fa-video-camera"></i></a></li>
                                                             <li id="menu-item-453" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-453"><a href="#">Audio files<i class="fa fa-microphone"></i></a></li>
                                                             <li id="menu-item-454" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-454"><a href="#">Members<i class="fa fa-user"></i></a></li>
                                                         </ul>
-                                                    </div></div>
-                                            </div><li id="menu-item-74" class="menu-item   menu-item-74"><a href="#">Blog</a></li>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                            <li id="menu-item-74" class="menu-item   menu-item-74"><a href="#">Blog</a></li>
                                         <li id="menu-item-73" class="menu-item   menu-item-73"><a href="#">Contact</a></li>
                                     </ul>                        
                                     <div class="col-md-3 pull-right hidden-sm hidden-xs">

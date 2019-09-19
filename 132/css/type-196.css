@@ -26,6 +26,7 @@
 }
 .type-196 .swiper-button-next,
 .type-196 .swiper-button-prev {
+  display: block;
   position: absolute;
   -webkit-transition: all .3s ease;
   cursor: pointer;
@@ -36,13 +37,14 @@
   padding-top: 8px;
   width: 30px;
   height: 30px;
+  opacity: 0;
 }
 .type-196 .swiper-button-prev:hover,
 .type-196 .swiper-button-next:hover {
   background-color: rgba(0,0,0,0.7);
 }
 .type-196 .swiper-container:hover .arrow {
-  display: block;
+  display: inline;
 }
 .type-196 .swiper-container .next,
 .type-196 .swiper-container .prev {
@@ -53,7 +55,7 @@
   text-align: center;
 }
 .type-196 .swiper-container .arrow {
-  display: none;
+  display: block;
 }
 .type-196 .swiper-container .next {
   top: 30px;

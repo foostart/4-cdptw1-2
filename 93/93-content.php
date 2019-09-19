@@ -64,7 +64,9 @@
                                                             <li id="menu-item-453" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-453"><a href="#">Audio files<i class="fa fa-microphone"></i></a></li>
                                                             <li id="menu-item-454" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-454"><a href="#">Members<i class="fa fa-user"></i></a></li>
                                                         </ul>
-                                                    </div></div>
+                                                    </div>
+                                                </div>
+                                            </li>
                                             </div><li id="menu-item-74" class="menu-item   menu-item-74"><a href="#">Blog</a></li>
                                         <li id="menu-item-73" class="menu-item   menu-item-73"><a href="#">Contact</a></li>
                                     </ul>                        

@@ -35,8 +35,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <ul class="dropdown-menu">
                                             <li class="active"><a href="#">Default Theme</a></li>
                                             <li><a href="#">Grass Green Theme</a></li>
-                                            <li><a href="#">Oil Green Theme</a></li>
-                                            <li><a href="#">Gray Theme</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown">
@@ -58,9 +56,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 <ul class="nav nav-pills nav-stacked">
                                                     <li><a href="#">Grid View</a></li>
                                                     <li><a href="#">List View</a></li>
-                                                    <li><a href="#">Full Width</a></li>
-                                                    <li><a href="#">Single Product</a></li>
-                                                    <li><a href="#">Search Results</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -84,11 +79,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <ul class="nav nav-pills nav-stacked">
                                                 <li><a href="#">Accessories</a></li>
                                                 <li><a href="#">Jeans</a></li>
-                                                <li><a href="#">Suits &amp; Blazers</a></li>
-                                                <li><a href="#">Sunglasses</a></li>
-                                                <li><a href="#">Swimwear</a></li>
-                                                <li><a href="#">Trousers</a></li>
-                                                <li><a href="#">T-Shirts</a></li>
                                             </ul>
                                         </div>
                                         <div class="col-md-2">
@@ -118,26 +108,11 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 <li><a href="#">Shirts &amp; Blouses</a></li>
                                                 <li><a href="#">Tunics</a></li>
                                             </ul>
-                                            <ul class="nav nav-pills nav-stacked">
-                                                <li><a href="#">Tincidunt Ac</a></li>
-                                            </ul>
-                                            <ul class="nav unstyled">
-                                                <li><a href="#">Evening Tops</a></li>
-                                                <li><a href="#">Shirts &amp; Blouses</a></li>
-                                                <li><a href="#">Tunics</a></li>
-                                            </ul>
+                                            
                                         </div>
                                         <div class="col-md-2">
                                             <ul class="nav nav-pills nav-stacked">
                                                 <li><a href="#">Lorem Adipiscing</a></li>
-                                            </ul>
-                                            <ul class="nav unstyled">
-                                                <li><a href="#">Evening Tops</a></li>
-                                                <li><a href="#">Shirts &amp; Blouses</a></li>
-                                                <li><a href="#">Tunics</a></li>
-                                            </ul>
-                                            <ul class="nav nav-pills nav-stacked">
-                                                <li><a href="#">Felis Sit</a></li>
                                             </ul>
                                             <ul class="nav unstyled">
                                                 <li><a href="#">Evening Tops</a></li>
@@ -165,8 +140,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                             <div class="row arri">
                                                 New arrivals in: &nbsp;
                                                 <a href="#" class="btn btn-mini">Clothing</a>
-                                                <a href="#" class="btn btn-mini">Shoes</a>
-                                                <a href="#" class="btn btn-mini">Accessories</a>
                                                 <a href="#" class="btn btn-mini btn-warning">Back in stock</a>
                                             </div>
                                         </div>

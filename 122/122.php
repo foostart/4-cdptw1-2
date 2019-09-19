@@ -617,6 +617,42 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                                 <div class="col-md-3 col-sm-6 col-xs-12">
+                                                    <div class="pricings-table">
+                                                        <div class="title-price">
+                                                            <h4>Tally Box Design</h4>
+                                                            <h3>$25</h3>
+                                                            <span>Monthly</span>
+                                                        </div>
+                                                        <ul class="list-group-item">
+                                                            <li>
+                                                                <i class="fa fa-check"></i> 2 years access <b>to all storage locations</b>
+                                                            </li>
+                                                            <li>
+                                                                <i class="fa fa-check"></i> <b>Unlimited</b> storage
+                                                            </li>
+                                                            <li>
+                                                                <i class="fa fa-check"></i> Limited <b>download quota</b>
+                                                            </li>
+                                                            <li>
+                                                                <i class="fa fa-check"></i> <b>Cash on Delivery</b>
+                                                            </li>
+                                                            <li>
+                                                                <i class="fa fa-check"></i> All time <b>updates</b>
+                                                            </li>
+                                                            <li>
+                                                                <i class="fa fa-check"></i> <b>Unlimited </b>access to all files
+                                                            </li>
+                                                            <li>
+                                                                <i class="fa fa-check"></i> <b>Allowed </b>to be exclusing per sale
+                                                            </li>
+                                                        </ul>
+                                                        <div class="price-footer">
+                                                            <a href="#" id="btn-download">Download now!</a>
+                                                            <a href="#" id="sign-up">Sign up</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

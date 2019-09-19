@@ -129,7 +129,7 @@
   padding: 30px;
   box-sizing: border-box;
   width: 100%;
-  display: block;
+  display: none;
 }
 .type-93 .sf-menu .mega-menu-container ul.sub-menu {
   display: block;
