@@ -21,87 +21,50 @@ $url_path = str_replace('\\', '/', $url_path);
                <div class="swiper-slide">
                   <div class="block">
                      <div class="image">
-                         <img src="images/custom_brand1_img.jpg" alt=""/>
+                      <a href="#"> <img src="images/custom_brand1_img.jpg" alt=""/> </a>
                      </div>
                   </div>
                </div>
                <div class="swiper-slide">
                   <div class="block">
                      <div class="image">
-                         <img src="images/custom_brand2_img.jpg" alt=""/>
+                      <a href="#"> <img src="images/custom_brand2_img.jpg" alt=""/> </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="block">
+                    <div class="image">
+                      <a href="#"> <img src="images/custom_brand1_img.jpg" alt=""/> </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-slide">
+                  <div class="block">
+                    <div class="image">
+                      <a href="#"> <img src="images/custom_brand2_img.jpg" alt=""/> </a>
                      </div>
                   </div>
                </div>
                <div class="swiper-slide">
                   <div class="block">
                      <div class="image">
-                         <img src="images/custom_brand3_img.jpg" alt=""/>
+                      <a href="#"> <img src="images/custom_brand1_img.jpg" alt=""/> </a>
                      </div>
                   </div>
                </div>
                <div class="swiper-slide">
                   <div class="block">
                      <div class="image">
-                         <img src="images/custom_brand4_img.jpg" alt=""/>
-                     </div>
-                  </div>
-               </div>
-               <div class="swiper-slide">
-                  <div class="block">
-                     <div class="image">
-                         <img src="images/custom_brand5_img.jpg" alt=""/>
-                     </div>
-                  </div>
-               </div>
-               <div class="swiper-slide">
-                  <div class="block">
-                     <div class="image">
-                         <img src="images/custom_brand6_img.jpg" alt=""/>
+                      <a href="#"> <img src="images/custom_brand2_img.jpg" alt=""/> </a>
                      </div>
                   </div>
                </div>
             </div>
-                <div class="alldot"style="text-align:center">
-                  <span class="dot" onclick="currentSlide(0)"></span> 
-                  <span class="dot" onclick="currentSlide(1)"></span> 
-                  <span class="dot" onclick="currentSlide(2)"></span> 
-              </div>
+            <br><br><br><br>
+            <div class="swiper-pagination"></div>
          </div>
       </div>
    </div>   
-    <script>
-      //khai báo biến slideIndex đại diện cho slide hiện tại
-      var slideIndex;
-      // KHai bào hàm hiển thị slide
-      function showSlides() {
-          var i;
-          var slides = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("dot");
-          for (i = 0; i < slides.length; i++) {
-             slides[i].style.display = "none";  
-          }
-          for (i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" active", "");
-          }
-
-          slides[slideIndex].style.display = "block";  
-          dots[slideIndex].className += " active";
-          //chuyển đến slide tiếp theo
-          slideIndex++;
-          //nếu đang ở slide cuối cùng thì chuyển về slide đầu
-          if (slideIndex > slides.length - 1) {
-            slideIndex = 0
-          }    
-          //tự động chuyển đổi slide sau 5s
-          setTimeout(showSlides, 5000);
-      }
-      //mặc định hiển thị slide đầu tiên 
-      showSlides(slideIndex = 0);
-
-
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
-      }
-    </script>
 </div>
 

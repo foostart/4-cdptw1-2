@@ -7,23 +7,6 @@
   margin-right: auto;
   margin-left: auto;
 }
-.type-196 .alldot {
-  padding-top: 20px;
-}
-.type-196 .dot {
-  cursor: pointer;
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-.type-196 .active,
-.type-196 .dot:hover {
-  background-color: #717171;
-}
 .type-196 .swiper-button-next,
 .type-196 .swiper-button-prev {
   display: block;
@@ -77,6 +60,9 @@
   opacity: 1;
   background: #6091ba;
 }
+.type-196 .swiper-container .image:hover {
+  opacity: 0.5;
+}
 .type-196 .swiper-container fa:hover {
   color: #000;
 }
@@ -111,6 +97,7 @@
 }
 .type-196 .banner .swiper-slide .block .image img {
   margin-top: 10px;
+  transition: transform 0.9s ease;
   width: 100%;
 }
 .type-196 .banner .swiper-slide .block:hover .product-btn {

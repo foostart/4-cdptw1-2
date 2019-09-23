@@ -7,22 +7,7 @@
     margin-right: auto;
     margin-left: auto;
     }
-    .alldot{
-     padding-top:20px; 
-    }
-    .dot {
-            cursor:pointer;
-            height: 13px;
-            width: 13px;
-            margin: 0 2px;
-            background-color: #bbb;
-            border-radius: 50%;
-            display: inline-block;
-            transition: background-color 0.6s ease;
-          }
-     .active, .dot:hover {
-            background-color: #717171;
-          }
+    
      .swiper-button-next, .swiper-button-prev{
             display: block;
             position: absolute;
@@ -82,6 +67,9 @@
                     opacity: 1;
                     background: #6091ba;
             }
+            .image:hover{
+                    opacity: 0.5;
+            }
             fa:hover{
                 color: #000;
             }
@@ -116,12 +104,13 @@
                 .image{
                     img{
                         margin-top: 10px;
-                        //transition: transform 0.9s ease; 
+                        transition: transform 0.9s ease; 
                         width: 100%;
                     }                    
                 }
             }
             .block:hover{
+
                 .product-btn {
                 opacity: 1;
                 visibility: visible;

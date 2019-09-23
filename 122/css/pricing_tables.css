@@ -457,6 +457,9 @@
   display: block;
   margin-top: 20px;
 }
+.pricing_tables .right_col .main-content .admin-panel .admin-content .pricings-table .price-footer a#sign-up:hover {
+  color: blue;
+}
 .pricing_tables .right_col .main-content .admin-panel .admin-content .sale-off {
   position: absolute;
   overflow: hidden;

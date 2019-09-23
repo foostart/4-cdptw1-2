@@ -66,7 +66,8 @@
                                                         </ul>
                                                     </div>
                                                 </div>
-                                            </li>
+                                            </div>
+                                         </li>
                                             </div><li id="menu-item-74" class="menu-item   menu-item-74"><a href="#">Blog</a></li>
                                         <li id="menu-item-73" class="menu-item   menu-item-73"><a href="#">Contact</a></li>
                                     </ul>                        
