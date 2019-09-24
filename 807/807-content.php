@@ -20,7 +20,7 @@
                                         <p>Comfort is a very important thing nowadays because it is a condition of satisfaction and calmness. It<br> is clear that our way of life must be as comfortable as possible.</p>
                                     </div>
                                     <div class="col-md-4">
-                                        <ul>
+                                        <ul class="contact">
                                             <li class="active">
                                                 <a href="#"><h4>Home</h4></a>
                                             </li>

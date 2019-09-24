@@ -19,7 +19,6 @@
 
         img {
           width: 315px;
-          background-color: #3e3e3e;
           background-image: none;
           background-repeat: no-repeat;
           background-position: center center;
@@ -51,11 +50,7 @@
                 
             }
         }
-    @media only screen and (max-width: 992px){
-    .address{
-      display: none;
-        }
-    }
+    
     .address{
         display: block;
         a{
@@ -201,5 +196,14 @@
             }
         } 
     }
-
+    @media only screen and (max-width: 992px){ 
+         .footer_row_1{
+             .contact{
+      display: none;
+        }
+        .address{
+        display: none;
+         }
+      }  
+    }
 }
