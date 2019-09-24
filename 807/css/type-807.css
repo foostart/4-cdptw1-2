@@ -43,6 +43,11 @@
   line-height: 1.25em;
   margin-top: 30px;
 }
+@media only screen and (max-width: 992px) {
+  .type-807 .footer_row_1 .address {
+    display: none;
+  }
+}
 .type-807 .footer_row_1 .address {
   display: block;
 }

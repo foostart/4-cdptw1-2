@@ -2,7 +2,6 @@
 $url_host = 'http://' . $_SERVER['HTTP_HOST'];
 $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
-
 preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
@@ -69,7 +68,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                     </li>
                                 </ul>
                             </li>
-
                             <!--mega menu-->
                             <li class="dropdown dropdown-megamenu">
                                 <a href="#" class="dropdown-toggle"> Megamenu <b class="caret"></b> </a>
@@ -107,8 +105,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                                 <li><a href="#">Evening Tops</a></li>
                                                 <li><a href="#">Shirts &amp; Blouses</a></li>
                                                 <li><a href="#">Tunics</a></li>
-                                            </ul>
-                                            
+                                            </ul>                                     
                                         </div>
                                         <div class="col-md-2">
                                             <ul class="nav nav-pills nav-stacked">
@@ -199,7 +196,6 @@ $url_path = str_replace('\\', '/', $url_path);
                             <p class="items">CART <span class="dark-clr">(3)</span></p>
                             <p class="dark-clr ">$1816.90</p>
                             <a href="#" class="btn btn-danger">
-
                                 <i class="fa fa-shopping-cart"></i>
                             </a>
                         </div>
@@ -220,7 +216,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <strong>$5914</strong>
                                 </div>
                             </div>
-
                             <div class="summary">
                                 <div class="deline">
                                     <div >

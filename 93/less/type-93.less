@@ -1,7 +1,11 @@
+@background: #003f58;
+@margin: 0;
+@pading: 0;
+@color: #fff;
 .type-93{
     .sf-menu {
-        margin: 0;
-        padding: 0;
+        margin: @margin;
+        padding: @pading;
         list-style: none;
         position: relative;
          margin-bottom: 0;
@@ -10,8 +14,8 @@
         font-weight: 600;
     }
     ul.sf-menu li ul {
-        margin: 0;
-        padding: 0;
+        margin: @margin;
+        padding: @pading;
         list-style: none;
         position: absolute;
         display: none;
@@ -88,7 +92,7 @@
         background: #111;
         -webkit-transition: none;
         transition: none;
-        color: #fff;
+        color: @color;
     }
     .sf-arrows .sf-with-ul {
         padding-right: 2.5em;
@@ -103,7 +107,7 @@
         height: 0;
         width: 0;
         border: 5px solid transparent;
-        border-top-color: #fff;
+        border-top-color: @color;
         border-top-color: rgba(255, 255, 255, 0.5);
     }
 
@@ -187,7 +191,7 @@
         color: #b4d3e0;
     }
     .feature i {
-        border: 2px solid #fff;
+        border: 2px solid @color;
         color: #1abc9c;
     }
     .light.feature p {
@@ -195,16 +199,16 @@
     }
 
     ul.sf-menu .mega-menu-container {
-        background: #003f58;
+        background: @background;
     }
     ul.sf-menu li a:hover {
         color: #30d9a4;
     }
     .sf-menu ul li {
-        background: #003f58;
+        background: @background;
     }
     .sf-menu ul li a {
-        background: #003f58;
+        background:@background;
     }
     .sf-menu ul li a:hover {
         background: #30d9a4;
@@ -215,11 +219,11 @@
         .sf-menu li:hover,
         .sf-menu li.sfHover,
         .current-menu-item {
-        background: #003f58;
-        color: #fff;
+        background: @background;
+        color: @color;
     }
     .sf-menu .sf-mega ul.mega_submenu li a {
-        color: #fff;
+        color: @color;
     }
     .sf-menu .mega-menu-container .mega-sub-menu > a {
         border-bottom: 1px solid #336578;
@@ -230,7 +234,7 @@
 
     .sb-search{
         padding-top: 15px;
-        color: #fff;
+        color: @color;
         float: right;
         width: 40px;
     }
@@ -239,7 +243,7 @@
         height: 65px;
     }
     .sb-search a{
-        color: #fff;
+        color: @color;
     }
 
 

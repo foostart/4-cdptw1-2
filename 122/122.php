@@ -334,8 +334,6 @@
                                                 <img src="images/img.jpg" alt="">John Doe
                                                 <i class="fa fa-angle-down"></i>
                                             </a>
-
-
                                             <ul class="dropdown-menu">
                                                 <li>
                                                     <a href="#">Profile</a>
@@ -361,7 +359,6 @@
                                                 <i class="fa fa-envelope-o"></i>
                                                 <span class="badge">6</span>
                                             </a>
-
                                             <ul class="dropdown-menu msg_list">
                                                 <li>
                                                     <a>
@@ -661,18 +658,13 @@
                         </div>
                     </div>
                     <div class="clearfix"></div>
-
                     <footer>
                         Gentelella - Bootstrap Admin Template by
                         <a href="#"> Colorlib</a>
                     </footer>
                 </div>
-               
-
                 <button onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
-
 <style>
-
 #myBtn {
     display: none;
     position: fixed;
@@ -688,26 +680,19 @@
     padding: 10px;
     border-radius: 4px;
 }
-
 #myBtn:hover {
   background-color: #555;
 }
 </style>
-
-
 <script>
-// When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
-
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         document.getElementById("myBtn").style.display = "block";
     } else {
         document.getElementById("myBtn").style.display = "none";
     }
-}
-
-// When the user clicks on the button, scroll to the top of the document
+}   
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;

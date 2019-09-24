@@ -24,6 +24,7 @@
         <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>/css/type-807.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
     <body>
