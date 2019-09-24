@@ -6,9 +6,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <title>Gentelella Alela! | </title>
-
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <?php
@@ -25,7 +23,6 @@
         <script src="js/sidebar-left.js" type="text/javascript"></script>
         <script src="js/collapse-close.js" type="text/javascript"></script>
     </head>
-
     <body>
         <div class="pricing_tables">
             <div class="container-fluid">
@@ -218,7 +215,6 @@
                                             <li><a href="../dashboard3/index2.php">Dashboard3</a></li>
                                         </ul>
                                     </li>
-
                                     <li class="dropdown">
                                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                             <i class="fa fa-edit"></i><h5>Form</h5>
