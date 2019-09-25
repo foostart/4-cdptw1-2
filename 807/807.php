@@ -17,7 +17,6 @@
     $less->compileFile('./less/type-807.less', 'css/type-807.css');
     
 ?>
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -26,7 +25,6 @@
         <link rel="stylesheet" type="text/css" href="<?php echo $url_path ?>/css/type-807.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-
     <body>
         <?php include $dir_block.'/807-content.php'; ?>
     </body>
