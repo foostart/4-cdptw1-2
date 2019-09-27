@@ -14,9 +14,15 @@
         ?>
          <link href="css/type-93.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery.js" type="text/javascript"></script>
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     </head>
     <body class="type-93 home page page-id-299 page-template page-template-page-templates page-template-template-fullwidth-not-header page-template-page-templatestemplate-fullwidth-not-header-php wpb-js-composer js-comp-ver-4.10 vc_responsive">
         <div>
+
+           
+
             <div class="wrapper">
                 <nav class="top-menu">
                     <div class="nav-inner">

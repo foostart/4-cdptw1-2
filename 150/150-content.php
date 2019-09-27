@@ -169,16 +169,6 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <ul class="dropdown-menu">
                                             <li><a href="#">Headings</a></li>
                                             <li><a href="#">Alert Boxes</a></li>
-                                            <li><a href="#">Tabs</a></li>
-                                            <li><a href="#">Buttons</a></li>
-                                            <li><a href="#">Toggles</a></li>
-                                            <li><a href="#">Quotes</a></li>
-                                            <li><a href="#">Gallery Grids</a></li>
-                                            <li><a href="#">Code</a></li>
-                                            <li><a href="#">Columns</a></li>
-                                            <li><a href="#">Maps</a></li>
-                                            <li><a href="#">Progress Bars</a></li>
-                                            <li><a href="#">Tables</a></li>
                                         </ul>
                                     </li>
                                 </ul>
