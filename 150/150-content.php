@@ -19,7 +19,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <span class="icon-bar"></span>
                         </button>
                     </div>
-                    <div class="collapse navbar-collapse js-navbar-collapse">
+                    <div class="collapse navbar-collapse ">
                         <form class="formsearch">
                             <input type="text" name="search" >
                             <a href="#"> <span class="fa fa-search icon-s"></span></a>
@@ -46,7 +46,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </ul>
                             </li> 
                             <!--shop-->
-                            <li class="dropdown dropdown-supermenu">
+                            <li class="dropdown ">
                                 <a href="#" class="dropdown-toggle"> Shop <b class="caret"></b> </a>
                                 <ul class="dropdown-menu supermenu accepts-5">
                                     <li class="row">
@@ -69,7 +69,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </ul>
                             </li>
                             <!--mega menu-->
-                            <li class="dropdown dropdown-megamenu">
+                            <li class="dropdown ">
                                 <a href="#" class="dropdown-toggle"> Megamenu <b class="caret"></b> </a>
                                 <ul class="dropdown-menu megamenu container fix-mg"> 
                                     <li class="row"> 
@@ -199,7 +199,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <span class="light-clr qty">
                                         Qty: 1
                                         &nbsp;
-                                        <a href="#" class="fa fa-remove-sign" title="Remove Item"></a>
+                                        <a href="#"  title="Remove Item"></a>
                                     </span>
                                 </div>
                                 <div class="price">

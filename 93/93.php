@@ -13,6 +13,7 @@
         ?>
          <link href="css/type-93.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/93.js" type="text/javascript"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
    <body>

@@ -61,7 +61,7 @@ $url_path = str_replace('\\', '/', $url_path);
                   </div>
                </div>
             </div>
-            <br><br><br><br>
+            <br><br>
             <div class="swiper-pagination"></div>
          </div>
       </div>

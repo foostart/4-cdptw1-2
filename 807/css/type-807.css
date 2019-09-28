@@ -6,8 +6,8 @@
   text-align: center;
   margin: 40px 0 10px 0;
 }
-.type-807 .container {
-  height: 350px;
+.type-807 .mod {
+  height: 400px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -160,6 +160,7 @@
   background-color: ;
 }
 .type-807 .footer_row_2 {
+  margin-top: 40px;
   border-top: 1px solid rgba(255,255,255,0.15);
   padding-top: 10px;
   margin-left: 30px;

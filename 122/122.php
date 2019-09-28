@@ -462,7 +462,7 @@
                                         </div>
                                         <div class="admin-content">
                                             <div class="row">
-                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                                <div class="col-md-3 col-sm-6 col-xs-12 mod">
                                                     <div class="pricings-table">
                                                         <div class="title-price">
                                                             <h4>Tally Box Design</h4>
@@ -497,7 +497,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                                <div class="col-md-3 col-sm-6 col-xs-12 mod">
                                                     <div class="pricings-table">
                                                         <div class="sale-off">
                                                             <div id="percent">
@@ -538,7 +538,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                                <div class="col-md-3 col-sm-6 col-xs-12 mod">
                                                     <div class="pricings-table">
                                                         <div class="title-price">
                                                             <h4>Tally Box Design</h4>
@@ -574,7 +574,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3 col-sm-6 col-xs-12">
+                                                <div class="col-md-3 col-sm-6 col-xs-12 mod">
                                                     <div class="pricings-table">
                                                         <div class="title-price">
                                                             <h4>Tally Box Design</h4>
@@ -610,7 +610,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                 <div class="col-md-3 col-sm-6 col-xs-12">
+                                                 <div class="col-md-3 col-sm-6 col-xs-12 mod">
                                                     <div class="pricings-table">
                                                         <div class="title-price">
                                                             <h4>Tally Box Design</h4>

@@ -8,7 +8,7 @@
 ?>
             <div class="type-807">
                 <!-- FOOTER -->
-                <div class="container">
+                <div class="container mod">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="footer_content">

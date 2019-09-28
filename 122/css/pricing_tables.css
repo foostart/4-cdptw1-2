@@ -391,6 +391,9 @@
 .pricing_tables .right_col .main-content .admin-panel .admin-content {
   margin: 25px 8px;
 }
+.pricing_tables .right_col .main-content .admin-panel .admin-content .mod:hover {
+  opacity: 1.5;
+}
 .pricing_tables .right_col .main-content .admin-panel .admin-content .pricings-table {
   text-align: center;
 }
