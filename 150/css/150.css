@@ -587,13 +587,13 @@
   }
   .type-150 .cart {
     border-left: 1px solid #e0e0e0;
-    text-align: right;
+    text-align: center;
   }
   .type-150 .navbar-nav {
     font-size: 14px;
   }
   .type-150 .nav>li>a {
-    padding: 15px 10px;
+    padding: 30px 10px;
   }
   .type-150 .fix-mg {
     left: -138%;
