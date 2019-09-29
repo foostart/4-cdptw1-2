@@ -7,6 +7,9 @@
   margin-right: auto;
   margin-left: auto;
 }
+.type-196 .pricing_tables: hover {
+  opacity: 1.5;
+}
 .type-196 .swiper-button-next,
 .type-196 .swiper-button-prev {
   display: block;

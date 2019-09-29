@@ -9,7 +9,7 @@
             include ('./libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('less/type-93.less', 'css/type-93.css');
+        $less->compileFile('less/type-93.less', 'css/type-93.css', 'js/93.js');
         ?>
          <link href="css/type-93.css" rel="stylesheet" type="text/css"/>
         <script src="js/jquery.js" type="text/javascript"></script>
